@@ -791,9 +791,9 @@
     import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 
     // ==================== 1. SAKLAR PREVIEW & KONFIGURASI SUPABASE ====================
-    const IS_PREVIEW = true; // Ubah menjadi false SAAT DEPLOY agar mode preview & data dummy hilang dan terhubung 100% ke Supabase
-    const SUPABASE_URL = "URL_SUPABASE_ANDA";
-    const SUPABASE_ANON_KEY = "ANON_KEY_ANDA";
+    const IS_PREVIEW = false; // Ubah menjadi false SAAT DEPLOY agar mode preview & data dummy hilang dan terhubung 100% ke Supabase
+    const SUPABASE_URL = "https://nkqwdktfpnutcyosbejm.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_0P8NEAzYl2Q7irjPut8vnA_OsULKblC";
 
     let supabase = null;
     if (!IS_PREVIEW && SUPABASE_URL.startsWith('http')) {
